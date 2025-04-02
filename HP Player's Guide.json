@@ -1,0 +1,1098 @@
+{
+  "Title": "So You Want to be a Wizard?",
+  "Subtitle": "PCs Guide & Character Building",
+  "Character Progression": {
+    "Levels": {
+      "Level 0": {
+        "Description": "Players begin at Level 0 by choosing 3 cantrips that reflect the early signs of magic in their backstory. No spells are chosen at this level."
+      },
+      "Level 1": {
+        "Description": "Players reach Level 1 when they acquire the essential items for spellcasting.",
+        "Requirements": [
+          "Wand",
+          "Spell Book (for writing the spells you learn)",
+          "Standard Book of Spells, Grade 1"
+        ]
+      },
+      "Level 2": {
+        "Description": "Players reach Level 2 once they are sorted into their Houses."
+      },
+      "Level 3": {
+        "Description": "Players reach Level 3 after attending each of the core classes: Potions, Charms, Defense Against the Dark Arts (DADA), Flying, Transfiguration, and Herbology. At this stage, players choose their specialty (the class in which they excel) and assign class rankings."
+      }
+    },
+    "Alignment": {
+      "Starting": "Neutral",
+      "Rules": "Alignment shifts to evil if any of the Unforgivable Curses is used more than 3 times."
+    }
+  },
+  "Combat": {
+    "Enemy AC": "At the start of each encounter, the DM displays the enemy's Armor Class (AC) so players know if their attack hits.",
+    "Concentration": "When taking damage while concentrating on a spell, make a Constitution saving throw to maintain concentration. The DC is equal to 10 or half the damage taken, whichever is higher."
+  },
+  "Death And Revival": {
+    "Death Saving Throws": {
+      "Description": "During death saving throws, the character becomes less aware of their surroundings as they slip into a personal purgatory.",
+      "First Failure": "On the first failed death save, the character sees their unique purgatory (an in-between space that remains consistent throughout the campaign).",
+      "Subsequent Steps": [
+        "The character can explore their purgatory and potentially meet other souls.",
+        "Eventually, the character must decide whether to proceed to the great beyond or become a ghost."
+      ]
+    },
+    "Resurrection": "No resurrection spells exist; death is irreversible in the Harry Potter universe.",
+    "Ghosts": "Ghosts are imprints of the soul and cannot learn new things.",
+    "Killing Curse": {
+      "Description": "When cast, the killing curse forces an immediate reaction from the target.",
+      "Avoidance": "To avoid being hit, the target must dodge or use a spell to put a large object in the way; counter spells or shield charms (like Protego) do not block it.",
+      "Result": "If the curse hits, the target dies instantly without making death saving throws."
+    },
+    "Medicine Checks": {
+      "Description": "Medicine checks cannot stabilize a character. Instead, a spell or healing potion is required.",
+      "Example": "For example, The Reviving Spell can stabilize you but will not restore hit points."
+    },
+    "Dropping To Zero HP": {
+      "Description": "If you drop to 0 HP, you fall unconscious, drop your wand and items, and must roll on the Damage Table. These effects remain until remedied (often requiring a trip to the hospital wing).",
+      "Cursed Effects": "If 0 HP results from a curse, roll on the cursed damage table; the effect is irreversible."
+    }
+  },
+  "Injuries": {
+    "Non-Magical": [
+      {
+        "Name": "Painful Blow",
+        "Effect": "After regaining at least 1 hit point, suffer disadvantage on all Wisdom-based checks, saves, and attacks. End with a DC 15 Wisdom save at the end of each turn."
+      },
+      {
+        "Name": "Ringing Blow",
+        "Effect": "After regaining at least 1 hit point, become deafened. End with a DC 15 Wisdom save at the end of each round."
+      },
+      {
+        "Name": "Strained Limb",
+        "Effect": "After regaining at least 1 hit point, suffer disadvantage on Dexterity-based checks, saves, and attacks. End with a DC 15 Dexterity save at the end of each round."
+      },
+      {
+        "Name": "Traumatic Blow",
+        "Effect": "After regaining at least 1 hit point, suffer disadvantage on Charisma-based checks, saves, and attacks. End with a DC 15 Charisma save at the end of each turn."
+      },
+      {
+        "Name": "Vision Obscured",
+        "Effect": "After regaining at least 1 hit point, all vision appears with light cover (+2 AC). End with a DC 15 Wisdom save at the end of each round."
+      },
+      {
+        "Name": "Winded",
+        "Effect": "After regaining at least 1 hit point, suffer disadvantage on Constitution-based checks, saves, and attacks. End with a DC 15 Constitution save at the end of each round."
+      },
+      {
+        "Name": "Exhaustion",
+        "Effect": "Gain 1 level of exhaustion."
+      },
+      {
+        "Name": "Bloodloss",
+        "Effect": "Maximum hit points are reduced by 2d6; recovery is limited to 1 hit point per long rest until remedied."
+      },
+      {
+        "Name": "Chronic Injury",
+        "Effect": "Maximum hit points are reduced by 1d3 every 24 hours until healed. Heals with 40+ hit points of magical healing or surgery (lasting at least 4 hours with a successful DC 20 Medicine check)."
+      },
+      {
+        "Name": "Crippled",
+        "Effect": "Reduce Strength by 1d3 points; removal requires a greater restoration spell."
+      },
+      {
+        "Name": "Mutilated",
+        "Effect": "Reduce Dexterity by 1d3 points; removal requires a greater restoration spell."
+      },
+      {
+        "Name": "Maimed",
+        "Effect": "Reduce Constitution by 1d3 points; removal requires a greater restoration spell."
+      },
+      {
+        "Name": "Emotional Trauma",
+        "Effect": "After regaining hit points, either cry uncontrollably for 1d4 rounds or retreat into your mind and become paralyzed for 1d4 rounds."
+      }
+    ],
+    "Cursed": [
+      {
+        "Name": "Lose a Foot",
+        "Effect": "Your speed on foot is halved; you must use a cane or crutch unless you have a peg leg or prosthesis. You fall prone after dashing and suffer disadvantage on Dexterity checks for balance."
+      },
+      {
+        "Name": "Lose an Ear",
+        "Effect": "Suffer disadvantage on hearing-based checks. If both ears are lost, you become deaf."
+      }
+    ]
+  },
+  "Review Of Actions In Combat": {
+    "Attack": "The most common action in combat is the Attack action, allowing you to make one melee or ranged attack.",
+    "Cast A Spell": "Each spell has a casting time. Most spells require 1 action, so spellcasters typically use their action to cast a spell.",
+    "Dash": "When you take the Dash action, you gain extra movement equal to your speed (after any modifiers). For example, with a speed of 30 feet, you can move up to 60 feet if you dash.",
+    "Disengage": "Taking the Disengage action means your movement doesn’t provoke opportunity attacks for the rest of your turn.",
+    "Dodge": "When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage (provided you can see the attacker), and you make Dexterity saving throws with advantage. This benefit ends if you are incapacitated or your speed drops to 0.",
+    "Help": "The Help action allows you to assist another creature. You can either grant an ally advantage on the next ability check to perform a task, or aid a friendly creature in attacking a target by distracting it—if your ally attacks before your next turn, their first attack roll is made with advantage.",
+    "Ready": "The Ready action lets you prepare to act using your reaction before the start of your next turn. First, you choose a perceivable trigger and the action you will take when that trigger occurs. If the trigger does not occur before your next turn, you lose that action (and, if you readied a spell, the expended spell slot). When readying a spell, you cast it normally but hold its energy, which requires concentration.",
+    "Search": "Taking the Search action means you devote your attention to finding something, which may require a Perception or Investigation check as determined by the GM.",
+    "Use An Object": "When an object requires your action for its use (for example, drawing a weapon as part of an attack), you take the Use An Object action. This action is also useful when you want to interact with multiple objects during your turn.",
+    "Aerial Combat": {
+      "Flying": {
+        "Weather Conditions": "Weather conditions affect flight performance.",
+        "Broom Model": "The specific broom model influences flying speed and stability.",
+        "Combat": "When flying on a broom, you have disadvantage on attack rolls due to the need to hold onto the broom and concentrate on flying."
+      }
+    }
+  }
+},
+{
+  "Life At Hogwarts": {
+    "Student Dice": {
+      "Description": "A student gains one Student Die for each extracurricular they participate in, up to a maximum of 2. A Student Die is 1d4 and can be added to an ability check for a skill listed in the extracurricular’s description. Only one Student Die can be used per check, and once used, it cannot be rolled again until after a long rest."
+    },
+    "Clubs And Extracurriculars": {
+      "Description": "Students can join extracurriculars and clubs to gain additional skills and benefits. Although a student may join as many as they wish, benefits are limited to a maximum of 2 extracurriculars. Joining an extracurricular grants a Student Die (up to 2).",
+      "Clubs": [
+        { "Name": "Astronomy", "Skills": ["Nature", "History"] },
+        { "Name": "Quidditch", "Requirements": "Tryout required", "Skills": ["Vehicle Proficiency With Brooms", "Athletics"] },
+        { "Name": "Dumbledore’s Army", "Description": "Student-led dueling club primarily for Gryffindor students.", "Skills": ["Acrobatics", "Defense Against The Dark Arts"] },
+        { "Name": "Dueling Club", "Skills": ["Defense Against The Dark Arts", "Arcana"] },
+        { "Name": "Rat Race Club", "Description": "Invite-only dueling club.", "Skills": ["Arcana", "Intimidation"] },
+        { "Name": "Muggle Studies", "Skills": ["Muggle Technology", "Sleight Of Hand"] },
+        { "Name": "Slug Club", "Description": "Invite-only club.", "Skills": ["Arcana", "Persuasion"] },
+        { "Name": "Care Of Magical Creatures", "Skills": ["Animal Handling", "Nature"] },
+        { "Name": "S.P.E.W.", "Full Name": "Society for the Promotion of Elfish Welfare", "Skills": ["History", "Persuasion"] },
+        { "Name": "Sphinx Club", "Description": "Invite-only; society started by Merlin.", "Skills": ["Unknown"] },
+        { "Name": "Choir", "Skills": ["Performance", "Persuasion"] },
+        { "Name": "Gobstones Club", "Description": "Gaming club.", "Skills": ["Sleight Of Hand", "History"] },
+        { "Name": "Charms Club", "Skills": ["Arcana", "Charms (choose one)"] },
+        { "Name": "Ancient Runes Club", "Skills": ["History", "Arcana"] },
+        { "Name": "Potions Club", "Skills": ["Potions", "Herbology"] }
+      ],
+      "Quitting Extracurricular": "Characters may quit extracurricular activities at any time, but must roleplay their reason, which may affect Relationship Scores."
+    },
+    "Jobs": {
+      "Description": "A character can hold one job at a time. A student may switch jobs at any time, but must roleplay the scenario.",
+      "Wage": "Students earn a set wage at the start of each week—typically around 10 Galleons per hour.",
+      "Fired": "Job termination is effective immediately.",
+      "Job Options": "Job postings are usually found in Hogesmade or on the Student Board at Hogwarts located in the Great Hall."
+    },
+    "Currency": {
+      "Conversions": [
+        {
+          "Name": "Galleon",
+          "Conversions": [
+            { "Region": "UK", "Lowest Unit": "Pence", "Amount": 100 },
+            { "Region": "US", "Lowest Unit": "Cents", "Amount": 100 }
+          ]
+        },
+        {
+          "Name": "Silver Sickle",
+          "Conversions": [
+            { "Region": "UK", "Lowest Unit": "Pence", "Amount": 2 },
+            { "Region": "US", "Lowest Unit": "Cents", "Amount": 2 }
+          ]
+        },
+        {
+          "Name": "Knut",
+          "Conversions": [
+            { "Region": "UK", "Lowest Unit": "Pence", "Amount": 1 },
+            { "Region": "US", "Lowest Unit": "Cents", "Amount": 1 }
+          ]
+        }
+      ]
+    },
+    "Relationships": {
+      "Description": "Each NPC begins with a Relationship Score of 0. Scores increase or decrease based on interactions.",
+      "Allies": "A score of 2 or more indicates a friend.",
+      "Rivals": "A score of -2 or less indicates a rival.",
+      "Love Interest": {
+        "Description": "PCs can date NPCs. A character and their love interest must reach a Relationship Score of +10 or higher to become 'Beloved'.",
+        "Beloved Inspiration": "Having a beloved grants, once per long rest, advantage on an attack roll, saving throw, or ability check.",
+        "Roleplaying": "Maintaining the relationship requires active engagement; neglect may cause the relationship to deteriorate."
+      }
+    },
+    "Pets": {
+      "Description": "Animal pets have stats and abilities based on the Monster Manual and do not level up.",
+      "Relationship Impact": "Pets lose 1 Relationship point per day if not fed and 1 point per day if not engaged with."
+    }
+  },
+  {
+    "Character Creation": {
+      "Begin Campaign and Lifespan": {
+        "Begin Campaign": "Begin the campaign at Level 0. You become Level 1 once you purchase a wand and a spell book.",
+        "Lifespan": "Magical people typically live around 137 years, though some may live between 300 and 800 years (for example, Dumbledore is 300)."
+      },
+      "Backstory": {
+        "Description": "Backstories are discussed with the DM in advance, though changes can be negotiated. Choose one of the following blood statuses:",
+        "Options": [
+          {
+            "Type": "Pure-blood",
+            "Details": "Both parents are magical. You likely have full knowledge of the magical world. Gain proficiency in Arcana and learn one additional cantrip."
+          },
+          {
+            "Type": "Half-blood",
+            "Details": "One parent is magical and the other is not. You may have knowledge of both the muggle and wizarding worlds, with proficiency in either Survival or Arcana depending on your backstory."
+          },
+          {
+            "Type": "Muggle",
+            "Details": "Both parents are non-magical. You likely have little to no knowledge of the magical world, but are familiar with muggle technology. Gain proficiency in Survival."
+          }
+        ],
+        "Considerations": [
+          "Who is your best friend?",
+          "Do you know any other kids going to Hogwarts (for example, a family friend or neighbor)?",
+          "What were the first signs of your magical abilities? (Discuss with the DM and tie this to the cantrip you choose at Level 0.)"
+        ]
+      },
+      "Personality": {
+        "Description": "Define your character's personality by considering the following attributes:",
+        "Attributes": {
+          "Quirk": "",
+          "Mannerisms": "",
+          "Greatest Fear": "Boggart (your character's greatest fear)",
+          "Happy Memory": "Patronus (a memory that inspires you)",
+          "Greatest Strength": "",
+          "Flaws": "",
+          "Adjectives": "List four adjectives that best describe your character"
+        }
+      },
+    "Age": "Characters are typically between 11 and 14 years old. For example, in August 1998, many students went into hiding following Voldemort's return in 1995.",
+      "Race": {
+        "Description": "Note: There may be racism against races other than human in the wizarding world.",
+        "Options": {
+          "Human": {
+            "Ability Score Increase": "Increase two different ability scores of your choice by 1 each.",
+            "Skills": "Gain proficiency in one skill of your choice.",
+            "Feat": "Gain one feat of your choice."
+          },
+          "Half-Goblin": {
+            "Size": "4 to 5 feet tall with a lean, wiry build (Medium).",
+            "Speed": "Base walking speed is 30 feet.",
+            "Goblin Cunning": "Advantage on Arcana checks related to magical artifacts, enchanted objects, and wizarding contracts."
+          },
+          "Half-Veela Charm": {
+            "Description": "A rare heritage where you inherit Veela blood, making you the center of attention regardless of gender.",
+            "Proficiency": "Gain proficiency in one Charisma skill of your choice.",
+            "Charm Ability": "As an action, attempt to charm a humanoid within 30 feet. The target must succeed on a Wisdom saving throw (with advantage if hostile). On failure, the target is charmed for one hour or until you or your companions harm it. This ability cannot be used again until after a long rest."
+          },
+          "Half-Giant": {
+            "Ability Score Increase": "Increase your Strength by 2 and your Constitution by 1.",
+            "Size": "8 to 10 feet tall.",
+            "Speed": "Base walking speed is 30 feet.",
+            "Relentless Endurance": "When reduced to 0 HP but not killed outright, drop to 1 HP instead (once per long rest).",
+            "Savage Attacks": "When you score a critical hit with a melee weapon, roll one additional damage die and add it to the extra damage."
+          }
+        },
+        "Additional Race Options": {
+          "Metamorph Magic": "You can transform your appearance at will, altering features such as height, weight, facial features, voice, hair length, coloration, and distinguishing characteristics. This ability does not change your statistics or size. You can also adapt your body to an aquatic environment, gaining a swimming speed equal to your walking speed.",
+          "Parseltongue": "You possess the ability to speak Parseltongue, enabling you to comprehend and communicate with snakes and snake-like creatures.",
+          "Lycanthropy": {
+            "Benefits": "Increase your Strength and Constitution by 1 (to a maximum of 20) and gain advantage on Wisdom (Perception) checks that rely on smell.",
+            "Penalties": "During the full moon (from sunset to sunrise), you transform into a werewolf, changing your alignment to Chaotic Evil and coming under DM control. For the day and three days after, suffer a -3 penalty to Constitution, gain two levels of exhaustion that cannot be removed, and have disadvantage on Constitution saving throws. This condition may lead to fear or discrimination."
+          },
+          "Vampirism": {
+            "Benefits": "You can see in dim light up to 120 feet as if it were bright light, and in darkness as if it were dim light (in shades of gray). You do not age and are immune to aging effects. Gain proficiency in Charisma (Persuasion).",
+            "Penalties": "Take 1 damage when starting your turn in direct sunlight, have disadvantage on attack rolls and on Wisdom (Perception) checks relying on sight in direct sunlight, cannot enter a residence without an invitation, are repelled by garlic (touching or eating it causes intense pain), and must sustain yourself by drinking blood."
+          }
+        }
+      },
+      "House": {
+          "Description": "House affiliation is determined during the Sorting Ceremony. Each House offers specific bonuses and proficiencies to its members.",
+          "Options": [
+            {
+              "Name": "Hufflepuff",
+              "Bonus": "+2 Charisma",
+              "Proficiencies": ["Animal Handling", "Insight", "Medicine (choose 2)"]
+            },
+            {
+              "Name": "Griffendor",
+              "Bonus": "+2 Strength",
+              "Proficiencies": ["Light Armor", "Finesse Weapons"]
+            },
+            {
+              "Name": "Slytherin",
+              "Bonus": "+2 Dexterity",
+              "Proficiencies": ["Arcana", "Perception", "Intimidation (choose 2)"]
+            },
+            {
+              "Name": "Ravenclaw",
+              "Bonus": "+2 Intelligence",
+              "Proficiencies": ["History", "Insight", "Arcana (choose 2)"]
+            }
+          ]
+        },
+        "Wizard Class Features": {
+          "Hit Points": {
+            "Hit Dice": "1d6 per wizard level",
+            "First Level": "6 + Constitution modifier",
+            "Higher Levels": "1d6 + Constitution modifier per wizard level after 1st"
+          },
+          "Proficiencies": {
+            "Armor": "None",
+            "Weapons": "Daggers, Darts, Slings, Quarterstaffs, Light Crossbows",
+            "Tools": "None"
+          },
+          "Saving Throws And Skills": {
+            "Saving Throws": ["Intelligence", "Wisdom"],
+            "Skills": "Choose any 2 skills"
+          },
+          "Combat Stats": {
+            "Armor Class": "10 + Dexterity modifier",
+            "Initiative": "Dexterity modifier",
+            "Passive Perception": "10 + Perception modifier"
+          },
+          "Spells": {
+            "Overview": "Spells have been renamed for this campaign. Components include Verbal (incantation), Somatic (wand movement), and Material (specific items that can produce additional effects).",
+            "Non-Prepared Spells": "If you want to use a spell you know but haven't prepared, you can spend 1 round looking it up in your spell book as an action.",
+            "Ritual Casting": "You can cast a wizard spell as a ritual if it has the ritual tag and is in your spell book. This requires all material components and takes at least 10 minutes.",
+            "Cantrips": "At Level 0, you know three cantrips. Additional cantrips may be learned at higher levels.",
+            "Spell Book": "At 1st level, you purchase a spell book containing six 1st-level wizard spells of your choice. Your spell book serves as the repository for your wizard spells (cantrips are fixed in your mind).",
+            "Preparing And Casting Spells": "Before casting, you prepare a list of spells from your spell book equal to your House modifier plus your wizard level (minimum of one spell). You regain all expended spell slots after a long rest.",
+            "Learning Spells": "Each time you gain a wizard level, you can add two spells of your choice to your spell book, provided they are of a level for which you have spell slots.",
+            "Arcane Recovery": "Once per day after a short rest, you can recover expended spell slots with a combined level equal to or less than half your wizard level (rounded up), excluding slots of 6th level or higher.",
+            "Ability Score Improvement": "At 4th, 8th, 12th, 16th, and 19th levels, you can increase one ability score by 2 or two ability scores by 1, up to a maximum of 20.",
+            "Spell Mastery": "At 18th level, choose one 1st-level and one 2nd-level wizard spell from your spell book that you can cast at will without expending a spell slot (these may also be cast non-verbally). Casting at higher levels requires expending a spell slot.",
+            "Signature Spells": "At 20th level, choose two 3rd-level wizard spells as your signature spells. These spells are always prepared, do not count against your prepared spells, and can be cast once at 3rd level without expending a spell slot, recharging after a short or long rest."
+          }
+        },
+      "Wizard Class Table": [
+          {
+            "Level": 1,
+            "Proficiency Bonus": 2,
+            "Cantrips Known": 3,
+            "Spell Slots": {
+              "1st": 2
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 2,
+            "Proficiency Bonus": 2,
+            "Cantrips Known": 3,
+            "Spell Slots": {
+              "1st": 3
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 3,
+            "Proficiency Bonus": 2,
+            "Cantrips Known": 3,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 2
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 4,
+            "Proficiency Bonus": 2,
+            "Cantrips Known": 3,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 4,
+              "3rd": 3
+            },
+            "Ability Score Improvement": true
+          },
+          {
+            "Level": 5,
+            "Proficiency Bonus": 3,
+            "Cantrips Known": 4,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 3,
+              "3rd": 2
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 6,
+            "Proficiency Bonus": 3,
+            "Cantrips Known": 4,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 3,
+              "3rd": 3
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 7,
+            "Proficiency Bonus": 3,
+            "Cantrips Known": 4,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 3,
+              "3rd": 3,
+              "4th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 8,
+            "Proficiency Bonus": 3,
+            "Cantrips Known": 4,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 2
+            },
+            "Ability Score Improvement": true
+          },
+          {
+            "Level": 9,
+            "Proficiency Bonus": 4,
+            "Cantrips Known": 4,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 10,
+            "Proficiency Bonus": 4,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 5,
+              "3rd": 4,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 2
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 11,
+            "Proficiency Bonus": 4,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 4,
+              "2nd": 5,
+              "3rd": 4,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 2,
+              "8th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 12,
+            "Proficiency Bonus": 4,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 2,
+              "7th": 1
+            },
+            "Ability Score Improvement": true
+          },
+          {
+            "Level": 13,
+            "Proficiency Bonus": 5,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 2,
+              "7th": 1,
+              "8th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 14,
+            "Proficiency Bonus": 5,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 2,
+              "7th": 1,
+              "8th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 15,
+            "Proficiency Bonus": 5,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 5,
+              "3rd": 4,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 2,
+              "8th": 1,
+              "9th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 16,
+            "Proficiency Bonus": 5,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 2,
+              "7th": 1,
+              "8th": 1,
+              "9th": 1
+            },
+            "Ability Score Improvement": true
+          },
+          {
+            "Level": 17,
+            "Proficiency Bonus": 6,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 6,
+              "2nd": 5,
+              "3rd": 4,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 2,
+              "8th": 1,
+              "9th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 18,
+            "Proficiency Bonus": 6,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 6,
+              "2nd": 5,
+              "3rd": 4,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 3,
+              "8th": 1,
+              "9th": 1
+            },
+            "Ability Score Improvement": false
+          },
+          {
+            "Level": 19,
+            "Proficiency Bonus": 6,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 3,
+              "8th": 2,
+              "9th": 1
+            },
+            "Ability Score Improvement": true
+          },
+          {
+            "Level": 20,
+            "Proficiency Bonus": 6,
+            "Cantrips Known": 5,
+            "Spell Slots": {
+              "1st": 5,
+              "2nd": 4,
+              "3rd": 3,
+              "4th": 3,
+              "5th": 3,
+              "6th": 3,
+              "7th": 3,
+              "8th": 2,
+              "9th": 1
+            },
+            "Ability Score Improvement": false
+          }
+        ]
+    },
+    
+      "Subjects and Spell Casting": {
+        "Overview": "Your character excels in some magical subjects and is average or less proficient in others. Each subject must be assigned a ranking from -3 to 3, where -3 is the worst, 0 is average, and 3 is the best. The subject ranked as 3 becomes your specialty and will grant you additional abilities as you level up.",
+        "Ranking Assignment": {
+          "Rank -3": "Assign one subject a rank of -3.",
+          "Rank -2": "Assign one subject a rank of -2.",
+          "Rank -1": "Assign one subject a rank of -1.",
+          "Rank 0": "Assign four subjects a rank of 0.",
+          "Rank 1": "Assign one subject a rank of 1.",
+          "Rank 2": "Assign one subject a rank of 2.",
+          "Rank 3": "Assign one subject a rank of 3 (this will be your specialty)."
+        },
+        "Other Skill Checks and Proficiencies": {
+          "Herbology": "Nature",
+          "Potions": "Brewer's Kit",
+          "Flying": "Athletics",
+          "Care Of Magical Creatures": "Animal Handling"
+        }
+      },
+      "Subject Specialty": {
+        "Overview": "At Level 3, choose the subject in which you excel. The subject ranked as 3 becomes your specialty and grants you additional skills and/or spells as you level up."
+      },
+        "Subjects": [
+          {"Name": "Defense Against the Dark Arts",
+              "Description": "Spells and abilities that block, banish, or protect against dark magic.",
+              "Options": {
+                "1": {
+                  "Description": "As a master of defensive and dueling spells, you specialize in repelling dark forces, protecting allies, and turning the enemy’s power against them. Inspired by the great defenders of the Wizarding World, you use a combination of agility, protective wards, and counter-magic in combat.",
+                  "Features": {
+                    "Dēfēnsa Stance": {
+                      "Activation": "Starting at 3rd level, you can enter a defensive spellcasting stance as a bonus action. The stance lasts for 1 minute and ends early if you are incapacitated, if you don medium or heavy armor, or if you use a two-handed weapon. You can dismiss the stance at any time without using an action.",
+                      "Benefits": [
+                        "Shielding Grace: Gain a bonus to your AC equal to your Intelligence modifier (minimum +1).",
+                        "Enhanced Reflexes: Increase your walking speed by 10 feet and gain advantage on Acrobatics checks.",
+                        "Concentration Mastery: Gain a bonus to Constitution saving throws to maintain concentration on spells equal to your Abjuration modifier (minimum +1).",
+                        "Defensive Riposte: When a creature misses you with a melee attack, you can use your reaction to cast a cantrip targeting that creature."
+                      ],
+                      "Usage": "This feature can be used a number of times equal to your proficiency bonus and recharges after a long rest."
+                    },
+                    "Dueling Precision": {
+                      "Activation": "Starting at 6th level, when you take the Attack action on your turn.",
+                      "Benefits": [
+                        "You may attack twice instead of once, with one attack optionally replaced by casting a cantrip.",
+                        "If you cast a spell as a bonus action on your turn, you can make one weapon attack as part of your action."
+                      ]
+                    },
+                    "Protego Maxima": {
+                      "Activation": "Starting at 10th level, while your Dēfēnsa stance is active.",
+                      "Benefits": [
+                        "When you take damage, you can use your reaction to reduce that damage by half.",
+                        "Force the attacker to take force damage equal to half the damage you absorbed."
+                      ],
+                      "Usage": "Usable a number of times equal to your Abjuration modifier (minimum 1); all expended uses are regained after a long rest."
+                    },
+                    "Auror’s Edge": {
+                      "Activation": "At 14th level, while your Dēfēnsa stance is active.",
+                      "Benefits": [
+                        "Add your Abjuration modifier (minimum +1) to the damage of your melee weapon attacks.",
+                        "When you hit a creature with a melee weapon attack, you can expend a spell slot to deal additional force damage equal to 2d8 per level of the spell slot."
+                      ]
+                    }
+                  }
+                },
+                "2": {
+                        "Title":"School of Defensive Charms",
+                        "Description": "Focus on protective and countering magic using shielding spells and wards.",
+                        "Features": {
+
+                          "Protego Ward": {
+                            "Activation": "Starting at 3rd level, when you cast an abjuration spell of 1st level or higher.",
+                            "Benefits": [
+                              "Create a magical ward that lasts until your next long rest.",
+                              "The ward has hit points equal to twice your wizard level plus your Abjuration modifier.",
+                              "The ward absorbs damage until reduced to 0; if depleted, any remaining damage is applied to you.",
+                              "Casting an abjuration spell of 1st level or higher restores hit points to the ward equal to twice the spell's level."
+                            ],
+                            "Usage": "Usable once per long rest."
+                          },
+                          "Projected Protego": {
+                            "Activation": "At 6th level.",
+                            "Benefits": [
+                              "Extend your Protego Ward to protect an ally when a creature within 30 feet takes damage.",
+                              "Use your reaction to have your ward absorb the damage instead.",
+                              "If the ward is reduced to 0, any remaining damage carries over to the ally."
+                            ]
+                          },
+                          "Enhanced Defensive Magic": {
+                            "Activation": "Beginning at 10th level.",
+                            "Benefits": [
+                              "When you cast a spell that requires an ability check, add your proficiency bonus to the roll."
+                            ]
+                          },
+                          "Spell Resilience": {
+                            "Activation": "Starting at 14th level.",
+                            "Benefits": [
+                              "Gain advantage on saving throws against spells.",
+                              "Gain resistance to damage from spells."
+                            ]
+                          }
+                        }
+                  },
+                  "3": {
+                          "Title":"Shadow-Walker",
+                          "Description": "Specialize in covert operations and stealthy defenses as a Shadow-Walker.",
+                          "Features": {
+                            "Dread Ambusher": [
+                              "At 3rd level, master ambush tactics. Gain a bonus to initiative rolls equal to your Abjuration modifier.",
+                              "On the first turn of combat, your walking speed increases by 10 feet.",
+                              "If you take the Attack action on that turn, you can make one additional weapon attack or cast a damaging cantrip that deals an extra 1d8 damage if it hits."
+                            ],
+                            "Umbral Veil": [
+                              "At 3rd level, cloak yourself in magical shadows.",
+                              "Gain darkvision out to 60 feet; if you already have darkvision, its range increases by 30 feet.",
+                              "While in darkness, you are invisible to creatures that rely on darkvision to see.",
+                              "You can cast The Disillusionment Charm on yourself once per long rest without expending a spell slot."
+                            ],
+                            "Mind Fortress": [
+                              "At 6th level, gain resistance to mental manipulation.",
+                              "Gain proficiency in Wisdom saving throws (or choose Intelligence or Charisma saving throws if already proficient in Wisdom).",
+                              "Have advantage on saving throws against being charmed or frightened."
+                            ],
+                            "Flurry Of Shadows": [
+                              "At 10th level, if you miss with a weapon attack or damaging spell, you can immediately make another attack or recast the same spell as part of the same action."
+                            ],
+                            "Evasive Apparition": [
+                              "At 14th level, when a creature makes an attack roll against you, use your reaction to cast Apparition.",
+                              "Teleport up to 30 feet to an unoccupied space you can see, imposing disadvantage on the attack roll."
+                            ]
+                          }
+                    }
+                }
+          },
+          {"Name":"Charms Illusionist",
+              "Description": "Focuses on illusion-based magic to create deceptive and versatile illusions. This subject grants you abilities that enhance your illusions, allowing you to deceive, misdirect, and confuse your foes.",
+              "Features": {
+                "Master Of Minor Illusions": {
+                  "Level": "3rd Level",
+                  "Description": "Learn the Minor Illusion charm. If you already know it, choose an alternative charm. When casting Minor Illusion, you can conjure both a sound and an image with a single casting, making your illusions more convincing."
+                },
+                "Malleable Illusions": {
+                  "Level": "6th Level",
+                  "Description": "Adapt your illusions on the fly. When you cast an illusion charm lasting 1 minute or longer, you may use your action to alter its nature, provided you can see it and remain within its usual limits."
+                },
+                "Illusory Self": {
+                  "Level": "10th Level",
+                  "Description": "Create an illusory duplicate of yourself to confuse attackers. When a foe makes an attack roll against you, you may use your reaction to conjure the duplicate. The attacker must make an Arcana check against your Illusion DC; if the duplicate is hit, it vanishes. This ability recharges after a short or long rest."
+                },
+                "Illusory Reality": {
+                  "Level": "14th Level",
+                  "Description": "Blend shadow magic into your illusions, temporarily giving them physical form. When you cast an illusion charm of 1st level or higher, you may choose one nonmagical, inanimate object within the illusion and make it real for 1 minute. Such objects cannot directly harm others or cause damage."
+                }
+              }
+            },
+            {"Name": "Charms - Conjuration",
+                "Overview": "This subject focuses on conjuration-based magic that allows you to create objects from thin air and manipulate space to your advantage.",
+                "Features": {
+                  "Minor Conjuration": {
+                    "Level": "2nd Level",
+                    "Description": "When you specialize in the School of Conjuration, you gain the ability to conjure small objects out of thin air. As an action, you can summon a nonmagical item no larger than 3 feet on any side and weighing no more than 10 pounds. The object appears either in your hand or in an unoccupied space within 10 feet of you. It is visibly magical, glowing softly within a 5-foot radius, and vanishes after 1 hour, if it takes or deals damage, or if you use this ability again. Examples include a golden goblet for decoration, a broomstick to sweep, or a mundane book to trick a classmate."
+                  },
+                  "Apparition": {
+                    "Level": "6th Level",
+                    "Description": "By 6th level, your studies in spatial manipulation grant you the ability to apparate. As an action, you can instantly move up to 30 feet to an unoccupied space you can see, or swap places with a willing creature of your size within range. Note that this ability does not work inside Hogwarts or its grounds due to anti-apparition enchantments, and apparating produces a loud cracking noise on both disappearance and reappearance. You may use this feature once per long rest, unless recharged by casting a 1st-level or higher conjuration spell."
+                  },
+                  "Unbreakable Focus": {
+                    "Level": "10th Level",
+                    "Description": "At 10th level, your mastery of conjuration charms allows you to maintain focus even in chaotic situations. While concentrating on a conjuration charm, your concentration cannot be broken by damage, making you the envy of your peers during high-stress exams or in dueling club matches."
+                  },
+                  "Battle-Hardened Summons": {
+                    "Level": "14th Level",
+                    "Description": "At 14th level, as a conjuration master, any creature you summon or create with a conjuration charm gains 20 temporary hit points. For example, a conjured Fire Crab may last longer against a foe, or your summoned guardian could withstand even the most stubborn Boggart attack. Your conjured allies are as durable as your skills are impressive."
+                  }
+                }
+              },
+            {"Name":"Transfiguration",
+                  "Description": "The art of turning one object or creature into another, altering matter and reality through magic.",
+                  "Options": {
+                    "1": {
+                      "Description": "Option 1 focuses on altering nonmagical materials and creating a powerful magical artifact—the Transmuter’s Stone.",
+                      "Features": {
+                        "Introduction To Alchemy": {
+                          "Level": "2nd Level",
+                          "Description": "Temporarily alter the properties of nonmagical materials. Through a special alchemical process, you can transform one substance into another (choose from wood, stone [not gemstones], iron, copper, or silver). For every 10 minutes spent working, you can transmute up to 1 cubic foot of material. The transformation lasts for 1 hour or until your concentration is broken, after which the material reverts to its original form."
+                        },
+                        "Crafting The Transmuter’s Stone": {
+                          "Level": "6th Level",
+                          "Description": "Create a powerful magical artifact called a Transmuter’s Stone over the course of 8 hours by infusing a stone with transfiguration magic. Once created, the stone grants the bearer one of the following benefits:\n• Darkvision: Ability to see in darkness up to 60 feet.\n• Enhanced Speed: Increase movement speed by 10 feet when unencumbered.\n• Fortified Constitution: Gain proficiency in Constitution saving throws.\n• Elemental Resistance: Gain resistance to one type of damage (acid, cold, fire, lightning, or thunder).\nEach time you cast a transfiguration spell of 1st level or higher, you can change the stone’s effect while it remains in your possession. Creating a new stone causes the old one to cease functioning."
+                        },
+                        "Elemental Affinity": {
+                          "Level": "10th Level",
+                          "Description": "Imbue the Transmuter’s Stone with a second benefit, allowing you to grant the bearer two of the listed benefits simultaneously, increasing the stone’s versatility and value."
+                        },
+                        "Master Transfiguration": {
+                          "Level": "14th Level",
+                          "Description": "Unlock the full potential of your Transmuter’s Stone by releasing its magic in a single, powerful burst. This destroys the stone (which cannot be remade until after a long rest) and produces one of the following effects:\n• Major Transformation: Transform a nonmagical object (up to a 5-foot cube) into another nonmagical object of similar size and mass; this transformation takes 10 minutes of careful handling.\n• Panacea: Touch a creature with the stone to remove all curses, diseases, and poisons afflicting it, and restore all its hit points.\n• Restore Life: Cast The Regenerating Spell on a creature without expending a spell slot or needing the spell in your spell book; the magic is channeled directly through the stone."
+                        }
+                      }
+                    },
+                    "2": {
+                      "Description": "Option 2 focuses on personal transformation and manipulating both objects and your own form.",
+                      "Features": {
+                        "Transfiguration Techniques": {
+                          "Level": "1st Level",
+                          "Description": "Choose one technique to master:\n• Animate Objects: Temporarily animate small objects (e.g., daggers, coins, quills) for 1 minute, making them function like tiny constructs.\n• Alter Self: Change your own features in subtle ways (hair color, eye color, nose shape) at will, with the effect lasting until you alter them again.\n• Malleable Materials: Soften and reshape nonmagical materials like wood, stone, or metal over the course of 1 minute."
+                        },
+                        "Arcane Metamorphosis": {
+                          "Level": "2nd Level",
+                          "Description": "Learn to momentarily alter your own body to adapt to different situations. As a bonus action, choose one of the following effects for 1 minute:\n• Aquatic Adaptation: Gain a swimming speed equal to your walking speed and the ability to breathe underwater.\n• Bestial Agility: Increase your speed by 10 feet and gain advantage on Acrobatics checks.\n• Hardened Form: Gain temporary hit points equal to your Intelligence modifier plus your wizard level.\nYou can use this feature a number of times equal to your Intelligence modifier (minimum once) per long rest."
+                        },
+                        "Greater Transmutations": {
+                          "Level": "5th Level",
+                          "Description": "Your mastery over transfiguration grows. Choose one of the following abilities:\n• Flesh to Stone (Lesser): As an action, partially petrify a creature within 30 feet. The creature must make a Constitution saving throw against your spell save DC or have its movement speed halved for 1 minute.\n• Mimicry: As an action, reshape your form to look exactly like another humanoid you have seen; this change lasts for 1 hour or until dispelled.\n• Living Weapon: As a bonus action, transform your arms into natural weapons (claws, fangs, spiked fists) that deal 1d8 damage (slashing, piercing, or bludgeoning) for 1 minute."
+                        },
+                        "Master Of Transformation": {
+                          "Level": "10th Level",
+                          "Description": "When casting a transmutation spell that requires a saving throw, you can impose disadvantage on one creature’s saving throw. This ability recharges after a short or long rest."
+                        },
+                        "True Metamorphosis": {
+                          "Level": "20th Level",
+                          "Description": "Gain the ability to permanently alter your own form. As an action, transform into any creature you have seen before, following rules similar to True Polymorph. Unlike True Polymorph, you can maintain the form indefinitely. You can only have one permanent transformation active at a time and can return to your normal form as an action."
+                        }
+                      }
+                    }
+                  }
+                },
+              {"Name": "Herbology",
+                  "Description": "The study of magical plants and their various uses.",
+                  "Options": {
+                    "1": {
+                      "Title": "Option 1: Natural Explorer",
+                      "Description": "Your studies in Herbology grant you proficiency with Brewer’s Tools and Cooking Tools. At 1st year, you choose one type of natural environment where your Herbology skills excel: Arctic, Coast, Desert, Forest, Grassland, Mountain, or Swamp.",
+                      "Features": {
+                        "Skill Expertise": "When making a Nature, Survival, or Herbology check related to your favored terrain, double your proficiency bonus if you are proficient in that skill.",
+                        "Traveling Perks": [
+                          "Difficult terrain doesn’t slow your group.",
+                          "Your group can’t become lost except by magical means.",
+                          "You remain alert to danger when foraging, navigating, or tracking.",
+                          "If traveling alone, you can move stealthily at a normal pace.",
+                          "When foraging, you find twice as much food and herbs.",
+                          "While tracking, you learn the exact number, sizes, and time since creatures passed."
+                        ],
+                        "Additional Favored Terrains": "At 6th level and 10th level, you may select additional favored terrains."
+                      }
+                    },
+                    "2": {
+                      "Title": "Option 2: Herbal Lore",
+                      "Description": "You gain proficiency in Nature, Medicine, and Herbalist’s Tools. You can identify any plant’s magical properties with a DC 10 Nature check, grow magical plants in half the usual time, and use plant-based materials for spell components (replacing any material under 50 gp).",
+                      "Features": {
+                        "Path Of Study": {
+                          "Description": "Choose a path of study:",
+                          "Paths": {
+                            "1": {
+                              "Name": "Healing Bloom (Support)",
+                              "Features": [
+                                "Create healing potions in half the time.",
+                                "At level 18, you can revive a creature that has died within the last minute, restoring them to half HP."
+                              ]
+                            },
+                            "2": {
+                              "Name": "Venomous Thorns (Offense)",
+                              "Features": [
+                                "Your poisons ignore resistance.",
+                                "At level 18, creatures poisoned by you have disadvantage on all saving throws."
+                              ]
+                            },
+                            "3": {
+                              "Name": "Wild Growth (Control)",
+                              "Features": [
+                                "As an action, you can make plants grow rapidly in a 30-ft radius.",
+                                "At level 18, you can summon an awakened tree or treant to fight for you once per long rest."
+                              ]
+                            }
+                          }
+                        },
+                        "Blooming Defense": {
+                          "Level": "5th Level",
+                          "Description": "Vines or bark shield you. You gain +1 AC and resistance to poison damage. When you take damage, thorns lash out at the attacker, dealing 1d8 piercing damage."
+                        },
+                        "Overgrowth": {
+                          "Level": "13th Level",
+                          "Description": "Once per long rest, you can summon a 30-ft radius forested area of difficult terrain for enemies but normal passage for allies. Lasts 10 minutes."
+                        },
+                        "Poison Immunity": {
+                          "Level": "15th Level",
+                          "Description": "You are immune to poison damage and the poisoned condition."
+                        },
+                        "Master Of Flora": {
+                          "Level": "20th Level",
+                          "Description": "Once per long rest, you can transform into a plant-based elemental (such as a Treant or Myconid Sovereign) for 1 hour, gaining its resistances and abilities."
+                        }
+                      }
+                    }
+                  }
+                },
+            {"Name":"Potions Mastery",
+                "Description": "Gain full potions list",
+                "Features": {
+                  "Supplier": {
+                    "Level": "3rd Level",
+                    "Name": "Supplier - Ingredient Expertise",
+                    "Description": "By 3rd level, your understanding of potion-making extends to acquiring rare and exotic ingredients. Whether you’re foraging in the wild or seeking out suppliers, you instinctively know:",
+                    "Benefits": [
+                      "Foraging: Know the type of environment where specific ingredients grow naturally and how to safely harvest them.",
+                      "Commerce: Identify which shops, markets, or magical vendors are most likely to stock the items you need, and negotiate favorable prices."
+                    ]
+                  },
+                  "Identity Mixture": {
+                    "Level": "10th Level",
+                    "Name": "Identity Mixture - Potion Identification",
+                    "Description": "Starting at 10th level, your expertise allows you to identify potions with a quick taste or a glance at their ingredients and properties. If you’ve encountered or read about a potion before, you can determine its effects with certainty.",
+                    "Notes": "If a potion is entirely unknown to you, you’ll need to experiment or research further to uncover its effects."
+                  },
+                  "Swift Quaf": {
+                    "Level": "14th Level",
+                    "Name": "Swift Quaf - Rapid Consumption",
+                    "Description": "Years of sampling potions have trained you to drink them with ease. Beginning at 14th level, you can consume a potion as a bonus action (one per turn), up to a number of times equal to your Constitution modifier per long rest.",
+                    "Notes": "Universal Healing Rule: Drinking a healing potion is always a bonus action for everyone, but this feature applies to all other types of potions as well."
+                  },
+                  "Poison Immunity": {
+                    "Level": "15th Level",
+                    "Name": "Poison Immunity",
+                    "Description": "You are immune to poison damage and the poisoned condition."
+                  },
+                  "Expert Brewer": {
+                    "Level": "18th Level",
+                    "Name": "Expert Brewer - Accelerated Crafting",
+                    "Description": "By 18th level, you’ve mastered the art of brewing. Your refined techniques allow you to:",
+                    "Benefits": [
+                      "Brew potions in half the usual time required.",
+                      "Ensure each batch is of the highest quality, reducing the chance of failed attempts."
+                    ],
+                    "Additional": "Additionally, you gain a reputation for your potions, making them sought-after commodities among students."
+                  }
+                }
+              },
+            {
+              "Name":"Divination Specialist",
+                "Description": "Focuses on cryptic insights and glimpses of the future that become clearer with time. As a Divination Specialist, you harness prophetic abilities to guide decisions, anticipate dangers, and influence the flow of fate.",
+                "Features": {
+                  "Precognitive Glimpse": {
+                    "Level": "3rd Level",
+                    "Description": "Once per long rest, you may glimpse a brief vision of a possible future event, granting you advantage on one ability check, saving throw, or attack roll."
+                  },
+                  "Fate's Whisper": {
+                    "Level": "6th Level",
+                    "Description": "Your connection with fate deepens. Once per short rest, after receiving a fleeting vision, add your proficiency bonus to one ability check or saving throw of your choice."
+                  },
+                  "Clairvoyant Sense": {
+                    "Level": "10th Level",
+                    "Description": "Develop an extrasensory perception that allows you to detect unseen events or hidden creatures. Once per long rest, you can cast a divination spell without expending a spell slot."
+                  },
+                  "Destiny Unraveled": {
+                    "Level": "14th Level",
+                    "Description": "Your visions become sharper and more precise. As a reaction, when you foresee a dangerous outcome, you can force an enemy to reroll an attack or saving throw."
+                  },
+                  "Oracle's Dominion": {
+                    "Level": "18th Level",
+                    "Description": "You become a true oracle of fate. Once per long rest, you can cast a powerful divination spell (as determined by your DM) that significantly alters events or reveals critical information."
+                  },
+                  "Visionary Insight": {
+                    "Level": "20th Level",
+                    "Description": "Your prophetic abilities reach their peak. Once per long rest, you may reroll one failed saving throw or ability check, as the fates lend you their favor."
+                  }
+                }
+              
+            },
+          {"Name":"Dark Arts",
+            "Description": "The study of the Dark Arts is both feared and revered. Practitioners of this path learn forbidden spells, hexes, and jinxes, becoming masters of debilitating their foes and bending magic to their will. You tread a dangerous line, for the Dark Arts always demand a price.",
+            "Features": {
+              "Dark Combat Training": {
+                "Level": "1st Level",
+                "Benefits": [
+                  "Dark Resilience: You have advantage on Constitution saving throws to maintain concentration on a spell when you take damage.",
+                  "Cursed Focus: You can perform the somatic components of spells even while holding a weapon or shield in one or both hands.",
+                  "Cursed Counter: When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to cast a Dark Arts spell instead of making an opportunity attack. The spell must have a casting time of 1 action and target only that creature."
+                ]
+              },
+              "Expanded Spell List": {
+                "Description": "Gain access to spells from the Dark Arts Spell List, which includes spells focused on curses, hexes, and jinxes."
+              },
+              "Curse": {
+                "Level": "3rd Level",
+                "Activation": "As a bonus action, choose one creature within 30 feet. The curse lasts for 1 minute or until the creature dies, you die, or you are incapacitated.",
+                "Benefits": [
+                  "Add your proficiency bonus to damage rolls against the cursed target.",
+                  "Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20.",
+                  "If the cursed target dies, you regain hit points equal to your level plus your Charisma modifier (minimum of 1)."
+                ],
+                "Usage": "Once per short or long rest."
+              },
+              "Dark Arsenal": {
+                "Level": "3rd Level",
+                "Description": "Gain proficiency with medium armor, shields, and martial weapons. You can channel your magic into a weapon, allowing you to use your Dark Arts modifier for its attack and damage rolls."
+              },
+              "Summon Inferius": {
+                "Level": "6th Level",
+                "Description": "When you slay a humanoid, you can use your reaction to raise it as an Inferius under your command. The Inferius has temporary hit points equal to half your level and a bonus to its attack rolls equal to your Charisma modifier. The Inferius serves you until the end of your next long rest, at which point it collapses and cannot be summoned again until you finish a long rest."
+              },
+              "Cursed Ward": {
+                "Level": "10th Level",
+                "Description": "Your mastery of curses shields you from harm. If a creature affected by your Unforgivable Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack misses, regardless of its roll."
+              },
+              "Chain Curse": {
+                "Level": "14th Level",
+                "Description": "When a creature under your Unforgivable Curse dies, you can use your reaction to transfer the curse to another creature within 30 feet. The curse lasts for the remaining duration, but you do not regain hit points from the death of the initial target."
+              }
+            }
+          }
+        ],
+        
+      
+        {
+          "Additional Feats": {
+            "Vehicle Proficiency": {
+              "Description": "If you have proficiency with a certain kind of vehicle, you can add your proficiency bonus to any check you make to control that vehicle in difficult circumstances. If using a vehicle without proficiency, you have disadvantage on any checks made to control it."
+            },
+            "Care of Magical Creatures": {
+              "Description": "Gain proficiency in Animal Handling and further enhance your ability to care for magical creatures.",
+              "Benefits": [
+                "Increase your Wisdom score by 1, to a maximum of 20.",
+                "Expert Handler: Gain proficiency in Arcana; if already proficient, your proficiency bonus is doubled for checks related to identifying magical creatures and their traits.",
+                "Soothing Presence: As an action, you can calm a hostile or frightened magical creature within 30 feet that can see or hear you. The creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Wisdom modifier) or have its hostility reduced to neutral for 1 minute. This ability can be used once per short or long rest.",
+                "Herbology Synergy: When making an Animal Handling check to interact with a magical creature, you can add your proficiency bonus a second time if you use an appropriate herb, potion, or magical item as part of the interaction."
+              ]
+            },
+            "Nature's Sanctuary": {
+              "Prerequisite": "14th level or above",
+              "Description": "Your bond with the natural world becomes so profound that both magical and non-magical creatures recognize and respect your connection. When a beast or plant creature attempts to attack you, it must first succeed on a Wisdom saving throw against your Spell Save DC. On a failed save, the creature must choose a different target or the attack automatically misses. On a successful save, the creature becomes immune to this effect for 24 hours. The creature is aware of this protective aura before making its attack."
+            },
+            "Aerial Combatant": {
+              "Description": "You are adept at keeping yourself oriented and leading your targets while flying a broomstick.",
+              "Benefits": [
+                "Gain tool proficiency in Vehicles (Broomstick).",
+                "No longer suffer disadvantage on attack rolls due to flying."
+              ]
+            },
+            "Martial Artist": {
+              "Description": "Trained in striking and grappling, you gain the following benefits:",
+              "Benefits": [
+                "Your unarmed strike uses a d6 for damage.",
+                "When you hit a creature with an unarmed strike on your turn, you can attempt to grapple the target as a bonus action.",
+                "Gain advantage on attack rolls against creatures you are grappling.",
+                "While a creature is grappled by you, you can use your action to make another grapple check to attempt one of the following maneuvers: Pin (if successful, both you and the creature are restrained until the grapple ends), Takedown (if successful, you make an unarmed strike and the creature is knocked prone), or Disarm (if successful, force the creature to drop one item of your choice and optionally take the item, ending the grapple)."
+              ]
+            },
+            "Occlumency Training": {
+              "Prerequisite": "6th level or higher",
+              "Description": "You have developed the presence of mind to resist mental invasion. When targeted by legilimens, you make a Wisdom saving throw to resist its initial effects, and you have advantage on Intelligence contests. If you fail the initial saving throw, you are immediately aware that the spell is targeting you. If you succeed, you can let the spell continue and reveal false information, emotions, or memories of your choosing. (Veritaserum will not work on you unless you allow it.)"
+            },
+            "Remarkable Aim": {
+              "Description": "You have unerring accuracy with projectile spells. Your ranged spell attacks ignore half cover and treat three-quarters cover as if it were half cover."
+            },
+            "Steady Caster": {
+              "Description": "You are able to maintain focus even in stressful situations. You have advantage on Constitution saving throws made to maintain concentration on a spell when you take damage."
+            },
+            "Wandless Magic": {
+              "Description": "Through studying ancient tomes or channeling volatile magic from your youth, you can perform small magical feats without your wand. If you know any of the following spells—accio, alohomora, colovaria, illegibilus, incendio glacia, pereo, wingardium leviosa—you can cast them without needing a wand or somatic component. Note that you cannot expend a higher-level spell slot when casting in this way."
+            }
+          }
+        }
+}
+  }
