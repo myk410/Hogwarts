@@ -182,8 +182,8 @@
         {
           "Name": "Silver Sickle",
           "Conversions": [
-            { "Region": "UK", "Lowest Unit": "Pence", "Amount": 2 },
-            { "Region": "US", "Lowest Unit": "Cents", "Amount": 2 }
+            { "Region": "UK", "Lowest Unit": "Pence", "Amount": 50 },
+            { "Region": "US", "Lowest Unit": "Cents", "Amount": 50 }
           ]
         },
         {
